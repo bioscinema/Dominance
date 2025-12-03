@@ -1,0 +1,22 @@
+Package: Dominance
+Title: Community and individual level dominance analysis
+Version: 0.0.1
+Authors@R: 
+    person("Zihan", "Zhu", email = "zxz1586@case.edu",
+           role = c("aut", "cre"))
+Description: Tools for dominance analysis of microbial communities,
+    including dominance Lorenz curves, Lorenz-Wasserstein dissimilarity, 
+    alpha-scale dominance (scarcity and Gini), and individual-level stable/opportunistic
+    dominance summaries.
+License: GPL-3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Depends: 
+    R (>= 4.1.0)
+Imports:
+    stats,
+    matrixStats,
+    dplyr,
+    phyloseq,
+    magrittr
