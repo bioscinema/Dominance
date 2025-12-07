@@ -1,2 +1,2 @@
 #install.packages("devtools") 
-devtools::install_github("yourname/Dominance")
+devtools::install_github("bioscinema/Dominance")
