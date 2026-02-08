@@ -1,2 +1,3 @@
-# install.packages("devtools") 
-devtools::install_github("bioscinema/Dominance")
+# installation
+remotes::install_github("bioscinema/Dominance@v0.0.2")
+
